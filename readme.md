@@ -120,7 +120,7 @@ masqueradb/
 
 ### 📄 Documentation
 
-For more details about the database design and logic, check the [MasqueraDB Documentation](docs/MASQUERADB_DOCS.pdf).
+For more details about the database design and logic, check the [MasqueraDB Documentation](docs/MASQUERADB_DOCS.pdf) (available only in Spanish).
 
 ### ⚖️ License
 
