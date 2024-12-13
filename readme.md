@@ -1,11 +1,14 @@
 ### 🌍 Readme in Other Languages
 
 - [README in Spanish](#readme-en-espa%C3%B1ol)
-# README (English)
+-
+- # README (English)
 
 ## 🌐 MasqueraDB
 
-MasqueraDB is a backend application designed for managing characters, chronicles, and users, primarily through a console-based user interface. It provides robust tools for data manipulation and serves as a foundation for more advanced systems.
+MasqueraDB is a backend application designed for managing characters, chronicles, and users, primarily through a console-based user interface. This project was created as the final project for the first year of a web development program, with the goal of practicing Java and database management concepts.
+
+You can view the project repository on GitHub [here](https://github.com/Rachni/masqueraDB/).
 
 ### ✨ Features
 
@@ -90,7 +93,7 @@ masqueradb/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rachni/masqueradb.git
+   git clone https://github.com/Rachni/masqueraDB.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -111,9 +114,10 @@ masqueradb/
 
 ### 🎡 Future Enhancements
 
-- Add a web-based frontend.
+- Add a web-based frontend using Spring Boot.
 - Enhance database interactions with advanced querying.
 - Implement multi-language support.
+
 
 ### ⚖️ License
 
@@ -125,7 +129,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ### 🌐 MasqueraDB
 
-MasqueraDB es una aplicación backend diseñada para gestionar personajes, crónicas y usuarios, principalmente a través de una interfaz de usuario basada en consola. Proporciona herramientas robustas para la manipulación de datos y sirve como base para sistemas más avanzados.
+MasqueraDB es una aplicación backend diseñada para gestionar personajes, crónicas y usuarios, principalmente a través de una interfaz de usuario basada en consola. Este proyecto fue creado como proyecto final del primer curso de un ciclo de desarrollo web, con el objetivo de practicar mis nociones de Java y de gestión de bases de datos.
+
+Puedes ver el repositorio del proyecto en GitHub [aquí](https://github.com/Rachni/masqueraDB/).
 
 ### ✨ Características
 
@@ -210,7 +216,7 @@ masqueradb/
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Rachni/masqueradb.git
+   git clone https://github.com/Rachni/masqueraDB.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
@@ -231,12 +237,11 @@ masqueradb/
 
 ### 🎡 Mejoras Futuras
 
-- Agregar un frontend basado en web.
+- Agregar un frontend basado en web utilizando Spring Boot.
 - Mejorar las interacciones con la base de datos con consultas avanzadas.
 - Implementar soporte multilingüe.
 
 ### ⚖️ Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
 
