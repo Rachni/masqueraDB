@@ -1,7 +1,7 @@
 ### 🌍 Readme in Other Languages
 
 - [README in Spanish](#readme-en-espa%C3%B1ol)
--
+
 - # README (English)
 
 ## 🌐 MasqueraDB
