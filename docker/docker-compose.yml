@@ -1,0 +1,28 @@
+version: '3.6'
+services:
+  db:
+    image: mysql:8.3
+    environment:
+      MYSQL_DATABASE: masqueradb # esta base de datos será creada al inicio del contenedor
+      MYSQL_USER: masqueradb #se crea al usuario y se asocia a la base de datos anterior
+      MYSQL_PASSWORD: masqueradb
+      MYSQL_ROOT_PASSWORD: masqueradb
+    ports:
+      - "3306:3306"
+    restart: always
+    volumes:
+      - database-disk:/var/lib/mysql
+      - ./initdb.d:/docker-entrypoint-initdb.d
+      
+
+  adminer:
+    #indica en la página de login, localhost: mysql
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+
+
+volumes:
+  database-disk:
+
