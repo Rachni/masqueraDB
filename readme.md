@@ -1,12 +1,11 @@
 # README (English)
-### 🌍 Readme in Other Languages
-- [README in Spanish](#readme-en-espa%C3%B1ol)
-  
+
 ## 🌐 MasqueraDB
 
-MasqueraDB is a java backend application designed for managing characters, chronicles, and users, primarily through a console-based user interface. It provides robust tools for data manipulation and serves as a foundation for more advanced systems.
+MasqueraDB is a backend application designed for managing characters, chronicles, and users, primarily through a console-based user interface. It provides robust tools for data manipulation and serves as a foundation for more advanced systems.
 
 ### ✨ Features
+
 - Manage users, characters, and chronicles.
 - Console-based user interface for interaction.
 - **Modular Architecture**:
@@ -18,31 +17,60 @@ MasqueraDB is a java backend application designed for managing characters, chron
 - Docker support for easy deployment.
 
 ### 🏛️ Architecture Overview
+
 The application is designed with a modular architecture to ensure flexibility and scalability:
 
 1. **UIConsole**:
+
    - Provides an interactive console-based interface.
    - Includes components like `MenuBuilder` for dynamic menu creation.
 
 2. **Backend**:
+
    - Manages the core logic for entities such as Users, Characters, and Chronicles.
    - Implements reusable operations for data handling.
 
 3. **Entity Layer**:
+
    - Encapsulates the primary data models and ensures separation of concerns.
 
 4. **Repository Layer**:
+
    - Handles all interactions with the data storage layer.
    - Ensures a clean separation of concerns by abstracting database queries.
 
 5. **Service Layer**:
+
    - Coordinates business logic between the UIConsole and Repository layers.
    - Encapsulates complex workflows and ensures consistency.
 
 6. **Docker Integration**:
+
    - Enables containerized deployment for consistent runtime environments.
 
+### 📁 Project Structure
+
+```plaintext
+masqueradb/
+├── LICENSE
+├── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── rachni/masqueradb/
+│   │   │       ├── backend/
+│   │   │       ├── UIConsole/
+│   │   │       └── entities/
+│   ├── test/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── docker/
+│   └── Dockerfile
+└── (other files and folders)
+```
+
 ### 💻 Technologies Used
+
 - Java
 - Gradle
 - Docker (for containerization)
@@ -50,18 +78,20 @@ The application is designed with a modular architecture to ensure flexibility an
 ### ⚡ Getting Started
 
 #### Prerequisites
+
 - Java JDK 11 or higher
 - Gradle
 - Docker (optional, for containerized deployment)
 
 #### Installation
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rachni/masqueraDB.git
+   git clone https://github.com/Rachni/masqueradb.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd masqueraDB
+   cd masqueradb
    ```
 3. Build the project:
    ```bash
@@ -69,6 +99,7 @@ The application is designed with a modular architecture to ensure flexibility an
    ```
 
 #### Running the Application
+
 1. Run the application:
    ```bash
    java -jar build/libs/masqueradb.jar
@@ -76,13 +107,17 @@ The application is designed with a modular architecture to ensure flexibility an
 2. Follow the console prompts to interact with the system.
 
 ### 🎡 Future Enhancements
+
 - Add a web-based frontend.
 - Enhance database interactions with advanced querying.
 - Implement multi-language support.
 
+### 🌍 Readme in Other Languages
 
+- [README in Spanish](#readme-en-espa%C3%B1ol)
 
 ### ⚖️ License
+
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
@@ -94,6 +129,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 MasqueraDB es una aplicación backend diseñada para gestionar personajes, crónicas y usuarios, principalmente a través de una interfaz de usuario basada en consola. Proporciona herramientas robustas para la manipulación de datos y sirve como base para sistemas más avanzados.
 
 ### ✨ Características
+
 - Gestión de usuarios, personajes y crónicas.
 - Interfaz de usuario basada en consola para interacción.
 - **Arquitectura Modular**:
@@ -105,31 +141,60 @@ MasqueraDB es una aplicación backend diseñada para gestionar personajes, crón
 - Soporte para Docker para un despliegue sencillo.
 
 ### 🏛️ Resumen de Arquitectura
+
 La aplicación está diseñada con una arquitectura modular para garantizar flexibilidad y escalabilidad:
 
 1. **UIConsole**:
+
    - Proporciona una interfaz interactiva basada en consola.
    - Incluye componentes como `MenuBuilder` para la creación dinámica de menús.
 
 2. **Backend**:
+
    - Gestiona la lógica principal para entidades como Usuarios, Personajes y Crónicas.
    - Implementa operaciones reutilizables para manejo de datos.
 
 3. **Capa de Entidad**:
+
    - Encapsula los modelos de datos principales y garantiza la separación de responsabilidades.
 
 4. **Capa de Repositorio**:
+
    - Maneja todas las interacciones con la capa de almacenamiento de datos.
    - Garantiza una separación limpia de responsabilidades mediante la abstracción de consultas a bases de datos.
 
 5. **Capa de Servicio**:
+
    - Coordina la lógica empresarial entre las capas de UIConsole y Repositorio.
    - Encapsula flujos de trabajo complejos y asegura consistencia.
 
 6. **Integración con Docker**:
+
    - Habilita el despliegue en contenedores para entornos de ejecución consistentes.
 
+### 📁 Estructura del Proyecto
+
+```plaintext
+masqueradb/
+├── LICENSE
+├── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── rachni/masqueradb/
+│   │   │       ├── backend/
+│   │   │       ├── UIConsole/
+│   │   │       └── entidades/
+│   ├── test/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── docker/
+│   └── Dockerfile
+└── (otros archivos y carpetas)
+```
+
 ### 💻 Tecnologías Utilizadas
+
 - Java
 - Gradle
 - Docker (para contenedores)
@@ -137,18 +202,20 @@ La aplicación está diseñada con una arquitectura modular para garantizar flex
 ### ⚡ Primeros Pasos
 
 #### Prerrequisitos
+
 - Java JDK 11 o superior
 - Gradle
 - Docker (opcional, para despliegue en contenedores)
 
 #### Instalación
+
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Rachni/masqueraDB.git
+   git clone https://github.com/Rachni/masqueradb.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd masqueraDB
+   cd masqueradb
    ```
 3. Construye el proyecto:
    ```bash
@@ -156,6 +223,7 @@ La aplicación está diseñada con una arquitectura modular para garantizar flex
    ```
 
 #### Ejecutar la Aplicación
+
 1. Ejecuta la aplicación:
    ```bash
    java -jar build/libs/masqueradb.jar
@@ -163,10 +231,13 @@ La aplicación está diseñada con una arquitectura modular para garantizar flex
 2. Sigue las instrucciones en la consola para interactuar con el sistema.
 
 ### 🎡 Mejoras Futuras
+
 - Agregar un frontend basado en web.
 - Mejorar las interacciones con la base de datos con consultas avanzadas.
 - Implementar soporte multilingüe.
 
 ### ⚖️ Licencia
+
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
 
