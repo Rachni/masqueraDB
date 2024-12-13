@@ -118,6 +118,9 @@ masqueradb/
 - Enhance database interactions with advanced querying.
 - Implement multi-language support.
 
+### 📄 Documentation
+
+For more details about the database design and logic, check the [MasqueraDB Documentation](docs/MASQUERADB_DOCS.pdf).
 
 ### ⚖️ License
 
@@ -240,6 +243,11 @@ masqueradb/
 - Agregar un frontend basado en web utilizando Spring Boot.
 - Mejorar las interacciones con la base de datos con consultas avanzadas.
 - Implementar soporte multilingüe.
+
+### 📄 Documentación
+
+Para más detalles sobre el diseño y la lógica de la base de datos, consulta la [Documentación de MasqueraDB](docs/MASQUERADB_DOCS.pdf).
+
 
 ### ⚖️ Licencia
 
