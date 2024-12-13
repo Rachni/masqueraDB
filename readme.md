@@ -1,3 +1,6 @@
+### 🌍 Readme in Other Languages
+
+- [README in Spanish](#readme-en-espa%C3%B1ol)
 # README (English)
 
 ## 🌐 MasqueraDB
@@ -111,10 +114,6 @@ masqueradb/
 - Add a web-based frontend.
 - Enhance database interactions with advanced querying.
 - Implement multi-language support.
-
-### 🌍 Readme in Other Languages
-
-- [README in Spanish](#readme-en-espa%C3%B1ol)
 
 ### ⚖️ License
 
